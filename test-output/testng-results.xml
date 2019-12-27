@@ -1,25 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="11745" started-at="2019-12-19T15:40:11 CET" finished-at="2019-12-19T15:40:22 CET">
+  <suite name="Default suite" duration-ms="68" started-at="2019-12-26T21:28:05 CET" finished-at="2019-12-26T21:28:05 CET">
     <groups>
     </groups>
-    <test name="Test" duration-ms="11745" started-at="2019-12-19T15:40:11 CET" finished-at="2019-12-19T15:40:22 CET">
+    <test name="Default test" duration-ms="68" started-at="2019-12-26T21:28:05 CET" finished-at="2019-12-26T21:28:05 CET">
       <class name="example.NewTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:example.NewTest@468e8565]" name="beforeTest" is-config="true" duration-ms="3573" started-at="2019-12-19T15:40:11 CET" finished-at="2019-12-19T15:40:14 CET">
+        <test-method status="FAIL" signature="beforeTest(java.lang.String)[pri:0, instance:example.NewTest@530612ba]" name="beforeTest" is-config="true" duration-ms="-1577392085565" started-at="2019-12-26T21:28:05 CET" finished-at="1970-01-01T01:00:00 CET">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated beforeTest.
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated beforeTest.
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:458)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:372)
+at org.testng.internal.Parameters.createParameters(Parameters.java:729)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
+at org.testng.TestRunner.beforeRun(TestRunner.java:613)
+at org.testng.TestRunner.run(TestRunner.java:584)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="demoTest()[pri:0, instance:example.NewTest@468e8565]" name="demoTest" duration-ms="7014" started-at="2019-12-19T15:40:14 CET" finished-at="2019-12-19T15:40:21 CET">
+        <test-method status="SKIP" signature="demoTest()[pri:0, instance:example.NewTest@530612ba]" name="demoTest" duration-ms="0" started-at="2019-12-26T21:28:05 CET" finished-at="2019-12-26T21:28:05 CET">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated beforeTest.
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated beforeTest.
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:458)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:372)
+at org.testng.internal.Parameters.createParameters(Parameters.java:729)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
+at org.testng.TestRunner.beforeRun(TestRunner.java:613)
+at org.testng.TestRunner.run(TestRunner.java:584)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demoTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:example.NewTest@468e8565]" name="afterTest" is-config="true" duration-ms="819" started-at="2019-12-19T15:40:21 CET" finished-at="2019-12-19T15:40:22 CET">
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:example.NewTest@530612ba]" name="afterTest" is-config="true" duration-ms="-1577392085623" started-at="2019-12-26T21:28:05 CET" finished-at="1970-01-01T01:00:00 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- example.NewTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
