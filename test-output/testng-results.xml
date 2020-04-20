@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="11087" started-at="2020-01-10T15:28:16 CET" finished-at="2020-01-10T15:28:27 CET">
+  <suite name="Suite" duration-ms="11185" started-at="2020-04-20T10:13:41 CEST" finished-at="2020-04-20T10:13:53 CEST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="11087" started-at="2020-01-10T15:28:16 CET" finished-at="2020-01-10T15:28:27 CET">
+    <test name="Test" duration-ms="11185" started-at="2020-04-20T10:13:41 CEST" finished-at="2020-04-20T10:13:53 CEST">
       <class name="example.NewTest">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:example.NewTest@140e5a13]" name="beforeTest" is-config="true" duration-ms="2132" started-at="2020-01-10T15:28:16 CET" finished-at="2020-01-10T15:28:18 CET">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:example.NewTest@140e5a13]" name="beforeTest" is-config="true" duration-ms="2464" started-at="2020-04-20T10:13:41 CEST" finished-at="2020-04-20T10:13:44 CEST">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="demoTest()[pri:0, instance:example.NewTest@140e5a13]" name="demoTest" duration-ms="8128" started-at="2020-01-10T15:28:18 CET" finished-at="2020-01-10T15:28:26 CET">
+        <test-method status="PASS" signature="demoTest()[pri:0, instance:example.NewTest@140e5a13]" name="demoTest" duration-ms="7752" started-at="2020-04-20T10:13:44 CEST" finished-at="2020-04-20T10:13:52 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demoTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:example.NewTest@140e5a13]" name="afterTest" is-config="true" duration-ms="788" started-at="2020-01-10T15:28:26 CET" finished-at="2020-01-10T15:28:27 CET">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:example.NewTest@140e5a13]" name="afterTest" is-config="true" duration-ms="907" started-at="2020-04-20T10:13:52 CEST" finished-at="2020-04-20T10:13:53 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
